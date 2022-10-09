@@ -41,7 +41,7 @@
             // 
             this.userbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.userbox.Location = new System.Drawing.Point(234, 319);
-            this.userbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.userbox.Margin = new System.Windows.Forms.Padding(4);
             this.userbox.Multiline = true;
             this.userbox.Name = "userbox";
             this.userbox.Size = new System.Drawing.Size(214, 38);
@@ -54,7 +54,7 @@
             this.label2.Location = new System.Drawing.Point(12, 314);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(214, 39);
+            this.label2.Size = new System.Drawing.Size(208, 38);
             this.label2.TabIndex = 2;
             this.label2.Text = "USERNAME";
             // 
@@ -65,7 +65,7 @@
             this.label3.Location = new System.Drawing.Point(8, 392);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(218, 39);
+            this.label3.Size = new System.Drawing.Size(212, 38);
             this.label3.TabIndex = 4;
             this.label3.Text = "PASSWORD";
             // 
@@ -73,11 +73,12 @@
             // 
             this.passbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.passbox.Location = new System.Drawing.Point(234, 393);
-            this.passbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.passbox.Margin = new System.Windows.Forms.Padding(4);
             this.passbox.Multiline = true;
             this.passbox.Name = "passbox";
             this.passbox.Size = new System.Drawing.Size(214, 38);
             this.passbox.TabIndex = 3;
+            this.passbox.TextChanged += new System.EventHandler(this.passbox_TextChanged);
             // 
             // label1
             // 
@@ -86,7 +87,7 @@
             this.label1.Location = new System.Drawing.Point(136, 226);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(184, 56);
+            this.label1.Size = new System.Drawing.Size(180, 55);
             this.label1.TabIndex = 5;
             this.label1.Text = "LOGIN";
             // 
@@ -94,7 +95,7 @@
             // 
             this.loginbutton.BackColor = System.Drawing.Color.White;
             this.loginbutton.Location = new System.Drawing.Point(189, 465);
-            this.loginbutton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.loginbutton.Margin = new System.Windows.Forms.Padding(4);
             this.loginbutton.Name = "loginbutton";
             this.loginbutton.Size = new System.Drawing.Size(96, 41);
             this.loginbutton.TabIndex = 6;
@@ -126,7 +127,7 @@
             this.Controls.Add(this.passbox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.userbox);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(485, 566);
             this.MinimumSize = new System.Drawing.Size(485, 566);
             this.Name = "Login";

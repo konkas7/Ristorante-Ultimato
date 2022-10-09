@@ -69,7 +69,7 @@ namespace Ristorante
 
             if (log == 2)
             {
-                MessageBox.Show("error"); //messaggio di errore
+                MessageBox.Show("Valori inseriti errati!"); //messaggio di errore
             }
         }
 
@@ -78,6 +78,11 @@ namespace Ristorante
             Cliente Cliente = new Cliente(); //apro form cliente
             Cliente.Show();
             this.Visible = false;
+        }
+
+        private void passbox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

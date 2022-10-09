@@ -38,17 +38,18 @@
             this.nome = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.ingredienti = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.prezzo = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(412, 31);
+            this.label1.Location = new System.Drawing.Point(725, 22);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.MaximumSize = new System.Drawing.Size(185, 69);
+            this.label1.MinimumSize = new System.Drawing.Size(185, 69);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(179, 69);
+            this.label1.Size = new System.Drawing.Size(185, 69);
             this.label1.TabIndex = 2;
             this.label1.Text = "Menú";
             // 
@@ -57,20 +58,21 @@
             this.ordini.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ordini.FormattingEnabled = true;
             this.ordini.ItemHeight = 25;
-            this.ordini.Location = new System.Drawing.Point(1087, 129);
-            this.ordini.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ordini.Location = new System.Drawing.Point(1071, 129);
+            this.ordini.Margin = new System.Windows.Forms.Padding(4);
             this.ordini.Name = "ordini";
-            this.ordini.Size = new System.Drawing.Size(289, 454);
+            this.ordini.Size = new System.Drawing.Size(289, 429);
             this.ordini.TabIndex = 4;
+            this.ordini.SelectedIndexChanged += new System.EventHandler(this.ordini_SelectedIndexChanged);
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.White;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(1087, 668);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(1388, 279);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(105, 49);
+            this.button1.Size = new System.Drawing.Size(128, 110);
             this.button1.TabIndex = 10;
             this.button1.Text = "Rimuovi";
             this.button1.UseVisualStyleBackColor = false;
@@ -80,10 +82,10 @@
             // 
             this.button2.BackColor = System.Drawing.Color.White;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(1200, 668);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Location = new System.Drawing.Point(1388, 129);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(177, 49);
+            this.button2.Size = new System.Drawing.Size(128, 110);
             this.button2.TabIndex = 11;
             this.button2.Text = "Ordina";
             this.button2.UseVisualStyleBackColor = false;
@@ -93,7 +95,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(1081, 624);
+            this.label5.Location = new System.Drawing.Point(1391, 432);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(125, 25);
@@ -104,7 +106,7 @@
             // 
             this.totprice.AutoSize = true;
             this.totprice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totprice.Location = new System.Drawing.Point(1351, 624);
+            this.totprice.Location = new System.Drawing.Point(1444, 490);
             this.totprice.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.totprice.Name = "totprice";
             this.totprice.Size = new System.Drawing.Size(23, 25);
@@ -120,9 +122,9 @@
             this.menu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menu.HideSelection = false;
             this.menu.Location = new System.Drawing.Point(39, 129);
-            this.menu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.menu.Margin = new System.Windows.Forms.Padding(4);
             this.menu.Name = "menu";
-            this.menu.Size = new System.Drawing.Size(997, 587);
+            this.menu.Size = new System.Drawing.Size(997, 429);
             this.menu.TabIndex = 15;
             this.menu.UseCompatibleStateImageBehavior = false;
             this.menu.View = System.Windows.Forms.View.Details;
@@ -145,24 +147,12 @@
             this.prezzo.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.prezzo.Width = 67;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(1124, 31);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(191, 69);
-            this.label2.TabIndex = 16;
-            this.label2.Text = "Ordini";
-            // 
             // Cliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Thistle;
-            this.ClientSize = new System.Drawing.Size(1415, 742);
-            this.Controls.Add(this.label2);
+            this.ClientSize = new System.Drawing.Size(1643, 708);
             this.Controls.Add(this.menu);
             this.Controls.Add(this.totprice);
             this.Controls.Add(this.label5);
@@ -170,9 +160,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.ordini);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.MaximumSize = new System.Drawing.Size(1433, 789);
-            this.MinimumSize = new System.Drawing.Size(1433, 789);
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximumSize = new System.Drawing.Size(10000, 10000);
             this.Name = "Cliente";
             this.Text = "Ristorante";
             this.Load += new System.EventHandler(this.Cliente_Load);
@@ -193,6 +182,5 @@
         private System.Windows.Forms.ColumnHeader prezzo;
         private System.Windows.Forms.ColumnHeader nome;
         private System.Windows.Forms.ColumnHeader ingredienti;
-        private System.Windows.Forms.Label label2;
     }
 }

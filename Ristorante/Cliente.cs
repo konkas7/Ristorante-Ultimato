@@ -243,5 +243,10 @@ namespace Ristorante
                 
             }
         }
+
+        private void ordini_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

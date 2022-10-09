@@ -42,6 +42,10 @@
             this.secondlabel = new System.Windows.Forms.Label();
             this.thirdlabel = new System.Windows.Forms.Label();
             this.fourthlabel = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -60,7 +64,7 @@
             this.searchbutton.BackColor = System.Drawing.Color.White;
             this.searchbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchbutton.Location = new System.Drawing.Point(399, 133);
-            this.searchbutton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.searchbutton.Margin = new System.Windows.Forms.Padding(4);
             this.searchbutton.Name = "searchbutton";
             this.searchbutton.Size = new System.Drawing.Size(144, 41);
             this.searchbutton.TabIndex = 22;
@@ -71,7 +75,7 @@
             // namebox
             // 
             this.namebox.Location = new System.Drawing.Point(107, 143);
-            this.namebox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.namebox.Margin = new System.Windows.Forms.Padding(4);
             this.namebox.Name = "namebox";
             this.namebox.Size = new System.Drawing.Size(195, 22);
             this.namebox.TabIndex = 21;
@@ -197,12 +201,52 @@
             this.fourthlabel.TabIndex = 46;
             this.fourthlabel.Text = " ";
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(102, 226);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(259, 16);
+            this.label8.TabIndex = 47;
+            this.label8.Text = "____________________________________";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(102, 276);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(259, 16);
+            this.label9.TabIndex = 48;
+            this.label9.Text = "____________________________________";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(104, 328);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(259, 16);
+            this.label10.TabIndex = 49;
+            this.label10.Text = "____________________________________";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(104, 374);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(259, 16);
+            this.label11.TabIndex = 50;
+            this.label11.Text = "____________________________________";
+            // 
             // Ricerca
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Thistle;
             this.ClientSize = new System.Drawing.Size(641, 468);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.fourthlabel);
             this.Controls.Add(this.thirdlabel);
             this.Controls.Add(this.secondlabel);
@@ -217,7 +261,7 @@
             this.Controls.Add(this.namebox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(659, 515);
             this.MinimumSize = new System.Drawing.Size(659, 515);
             this.Name = "Ricerca";
@@ -244,5 +288,9 @@
         private System.Windows.Forms.Label secondlabel;
         private System.Windows.Forms.Label thirdlabel;
         private System.Windows.Forms.Label fourthlabel;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
     }
 }

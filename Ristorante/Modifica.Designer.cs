@@ -59,7 +59,7 @@
             // namebox
             // 
             this.namebox.Location = new System.Drawing.Point(63, 134);
-            this.namebox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.namebox.Margin = new System.Windows.Forms.Padding(4);
             this.namebox.Name = "namebox";
             this.namebox.Size = new System.Drawing.Size(195, 22);
             this.namebox.TabIndex = 9;
@@ -80,7 +80,7 @@
             this.searchbutton.BackColor = System.Drawing.Color.White;
             this.searchbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchbutton.Location = new System.Drawing.Point(355, 124);
-            this.searchbutton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.searchbutton.Margin = new System.Windows.Forms.Padding(4);
             this.searchbutton.Name = "searchbutton";
             this.searchbutton.Size = new System.Drawing.Size(144, 41);
             this.searchbutton.TabIndex = 19;
@@ -91,7 +91,7 @@
             // pricebox
             // 
             this.pricebox.Location = new System.Drawing.Point(63, 250);
-            this.pricebox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pricebox.Margin = new System.Windows.Forms.Padding(4);
             this.pricebox.Name = "pricebox";
             this.pricebox.Size = new System.Drawing.Size(195, 22);
             this.pricebox.TabIndex = 21;
@@ -110,7 +110,7 @@
             // fourthbox
             // 
             this.fourthbox.Location = new System.Drawing.Point(63, 418);
-            this.fourthbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.fourthbox.Margin = new System.Windows.Forms.Padding(4);
             this.fourthbox.Name = "fourthbox";
             this.fourthbox.Size = new System.Drawing.Size(195, 22);
             this.fourthbox.TabIndex = 29;
@@ -129,7 +129,7 @@
             // thirdbox
             // 
             this.thirdbox.Location = new System.Drawing.Point(327, 334);
-            this.thirdbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.thirdbox.Margin = new System.Windows.Forms.Padding(4);
             this.thirdbox.Name = "thirdbox";
             this.thirdbox.Size = new System.Drawing.Size(195, 22);
             this.thirdbox.TabIndex = 27;
@@ -148,7 +148,7 @@
             // secondbox
             // 
             this.secondbox.Location = new System.Drawing.Point(63, 334);
-            this.secondbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.secondbox.Margin = new System.Windows.Forms.Padding(4);
             this.secondbox.Name = "secondbox";
             this.secondbox.Size = new System.Drawing.Size(195, 22);
             this.secondbox.TabIndex = 25;
@@ -167,7 +167,7 @@
             // firstbox
             // 
             this.firstbox.Location = new System.Drawing.Point(327, 250);
-            this.firstbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.firstbox.Margin = new System.Windows.Forms.Padding(4);
             this.firstbox.Name = "firstbox";
             this.firstbox.Size = new System.Drawing.Size(195, 22);
             this.firstbox.TabIndex = 23;
@@ -188,7 +188,7 @@
             this.savebutton.BackColor = System.Drawing.Color.White;
             this.savebutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.savebutton.Location = new System.Drawing.Point(355, 409);
-            this.savebutton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.savebutton.Margin = new System.Windows.Forms.Padding(4);
             this.savebutton.Name = "savebutton";
             this.savebutton.Size = new System.Drawing.Size(144, 41);
             this.savebutton.TabIndex = 30;
@@ -217,11 +217,12 @@
             this.Controls.Add(this.namebox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(621, 533);
             this.MinimumSize = new System.Drawing.Size(621, 533);
             this.Name = "Modifica";
             this.Text = "Ristorante";
+            this.Load += new System.EventHandler(this.Modifica_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

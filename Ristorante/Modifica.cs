@@ -117,5 +117,10 @@ namespace Ristorante
             MessageBox.Show("Modificato con successo");
             this.Close();
         }
+
+        private void Modifica_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

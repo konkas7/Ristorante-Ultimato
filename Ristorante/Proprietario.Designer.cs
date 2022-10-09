@@ -41,7 +41,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(183, 11);
+            this.label1.Location = new System.Drawing.Point(137, 29);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(340, 69);
@@ -52,10 +52,10 @@
             // 
             this.addbox.BackColor = System.Drawing.Color.White;
             this.addbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addbox.Location = new System.Drawing.Point(35, 111);
-            this.addbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addbox.Location = new System.Drawing.Point(67, 152);
+            this.addbox.Margin = new System.Windows.Forms.Padding(4);
             this.addbox.Name = "addbox";
-            this.addbox.Size = new System.Drawing.Size(213, 47);
+            this.addbox.Size = new System.Drawing.Size(213, 71);
             this.addbox.TabIndex = 1;
             this.addbox.Text = "Aggiungi";
             this.addbox.UseVisualStyleBackColor = false;
@@ -65,10 +65,10 @@
             // 
             this.editbox.BackColor = System.Drawing.Color.White;
             this.editbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.editbox.Location = new System.Drawing.Point(256, 111);
-            this.editbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.editbox.Location = new System.Drawing.Point(325, 152);
+            this.editbox.Margin = new System.Windows.Forms.Padding(4);
             this.editbox.Name = "editbox";
-            this.editbox.Size = new System.Drawing.Size(213, 47);
+            this.editbox.Size = new System.Drawing.Size(213, 71);
             this.editbox.TabIndex = 2;
             this.editbox.Text = "Modifica";
             this.editbox.UseVisualStyleBackColor = false;
@@ -78,10 +78,10 @@
             // 
             this.searchbox.BackColor = System.Drawing.Color.White;
             this.searchbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.searchbox.Location = new System.Drawing.Point(477, 111);
-            this.searchbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.searchbox.Location = new System.Drawing.Point(67, 283);
+            this.searchbox.Margin = new System.Windows.Forms.Padding(4);
             this.searchbox.Name = "searchbox";
-            this.searchbox.Size = new System.Drawing.Size(213, 47);
+            this.searchbox.Size = new System.Drawing.Size(213, 71);
             this.searchbox.TabIndex = 3;
             this.searchbox.Text = "Ricerca";
             this.searchbox.UseVisualStyleBackColor = false;
@@ -91,10 +91,10 @@
             // 
             this.viewbox.BackColor = System.Drawing.Color.White;
             this.viewbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.viewbox.Location = new System.Drawing.Point(35, 165);
-            this.viewbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.viewbox.Location = new System.Drawing.Point(325, 283);
+            this.viewbox.Margin = new System.Windows.Forms.Padding(4);
             this.viewbox.Name = "viewbox";
-            this.viewbox.Size = new System.Drawing.Size(213, 47);
+            this.viewbox.Size = new System.Drawing.Size(213, 71);
             this.viewbox.TabIndex = 5;
             this.viewbox.Text = "Visualizza";
             this.viewbox.UseVisualStyleBackColor = false;
@@ -104,10 +104,10 @@
             // 
             this.deletebox.BackColor = System.Drawing.Color.White;
             this.deletebox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deletebox.Location = new System.Drawing.Point(256, 165);
-            this.deletebox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.deletebox.Location = new System.Drawing.Point(67, 415);
+            this.deletebox.Margin = new System.Windows.Forms.Padding(4);
             this.deletebox.Name = "deletebox";
-            this.deletebox.Size = new System.Drawing.Size(213, 47);
+            this.deletebox.Size = new System.Drawing.Size(213, 71);
             this.deletebox.TabIndex = 6;
             this.deletebox.Text = "Elimina";
             this.deletebox.UseVisualStyleBackColor = false;
@@ -117,10 +117,10 @@
             // 
             this.recoverbox.BackColor = System.Drawing.Color.White;
             this.recoverbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.recoverbox.Location = new System.Drawing.Point(477, 165);
-            this.recoverbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.recoverbox.Location = new System.Drawing.Point(325, 415);
+            this.recoverbox.Margin = new System.Windows.Forms.Padding(4);
             this.recoverbox.Name = "recoverbox";
-            this.recoverbox.Size = new System.Drawing.Size(213, 47);
+            this.recoverbox.Size = new System.Drawing.Size(213, 71);
             this.recoverbox.TabIndex = 7;
             this.recoverbox.Text = "Recupera";
             this.recoverbox.UseVisualStyleBackColor = false;
@@ -131,7 +131,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Thistle;
-            this.ClientSize = new System.Drawing.Size(731, 236);
+            this.ClientSize = new System.Drawing.Size(610, 557);
             this.Controls.Add(this.recoverbox);
             this.Controls.Add(this.deletebox);
             this.Controls.Add(this.viewbox);
@@ -139,9 +139,7 @@
             this.Controls.Add(this.editbox);
             this.Controls.Add(this.addbox);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.MaximumSize = new System.Drawing.Size(749, 283);
-            this.MinimumSize = new System.Drawing.Size(749, 283);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Proprietario";
             this.Text = "Ristorante";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Proprietario_FormClosing);

@@ -50,7 +50,7 @@
             this.searchbutton.Name = "searchbutton";
             this.searchbutton.Size = new System.Drawing.Size(144, 41);
             this.searchbutton.TabIndex = 26;
-            this.searchbutton.Text = "Elimina";
+            this.searchbutton.Text = "->";
             this.searchbutton.UseVisualStyleBackColor = false;
             this.searchbutton.Click += new System.EventHandler(this.searchbutton_Click);
             // 
