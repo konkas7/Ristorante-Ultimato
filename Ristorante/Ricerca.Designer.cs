@@ -261,6 +261,7 @@
             this.Controls.Add(this.namebox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(659, 515);
             this.MinimumSize = new System.Drawing.Size(659, 515);

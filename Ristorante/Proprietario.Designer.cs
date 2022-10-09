@@ -139,6 +139,7 @@
             this.Controls.Add(this.editbox);
             this.Controls.Add(this.addbox);
             this.Controls.Add(this.label1);
+            this.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Proprietario";
             this.Text = "Ristorante";

@@ -160,6 +160,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.ordini);
             this.Controls.Add(this.label1);
+            this.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(10000, 10000);
             this.Name = "Cliente";

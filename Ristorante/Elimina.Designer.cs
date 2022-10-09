@@ -152,6 +152,7 @@
             this.ClientSize = new System.Drawing.Size(507, 178);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
+            this.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(525, 225);
             this.MinimumSize = new System.Drawing.Size(525, 225);

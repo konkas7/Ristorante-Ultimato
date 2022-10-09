@@ -127,6 +127,7 @@
             this.Controls.Add(this.passbox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.userbox);
+            this.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(485, 566);
             this.MinimumSize = new System.Drawing.Size(485, 566);

@@ -56,7 +56,7 @@
             this.antipasti.FormattingEnabled = true;
             this.antipasti.ItemHeight = 29;
             this.antipasti.Location = new System.Drawing.Point(31, 170);
-            this.antipasti.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.antipasti.Margin = new System.Windows.Forms.Padding(4);
             this.antipasti.Name = "antipasti";
             this.antipasti.Size = new System.Drawing.Size(289, 410);
             this.antipasti.TabIndex = 2;
@@ -68,7 +68,7 @@
             this.primi.FormattingEnabled = true;
             this.primi.ItemHeight = 29;
             this.primi.Location = new System.Drawing.Point(347, 170);
-            this.primi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.primi.Margin = new System.Windows.Forms.Padding(4);
             this.primi.Name = "primi";
             this.primi.Size = new System.Drawing.Size(289, 410);
             this.primi.TabIndex = 3;
@@ -80,7 +80,7 @@
             this.secondi.FormattingEnabled = true;
             this.secondi.ItemHeight = 29;
             this.secondi.Location = new System.Drawing.Point(664, 170);
-            this.secondi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.secondi.Margin = new System.Windows.Forms.Padding(4);
             this.secondi.Name = "secondi";
             this.secondi.Size = new System.Drawing.Size(289, 410);
             this.secondi.TabIndex = 4;
@@ -92,7 +92,7 @@
             this.dessert.FormattingEnabled = true;
             this.dessert.ItemHeight = 29;
             this.dessert.Location = new System.Drawing.Point(983, 170);
-            this.dessert.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dessert.Margin = new System.Windows.Forms.Padding(4);
             this.dessert.Name = "dessert";
             this.dessert.Size = new System.Drawing.Size(289, 410);
             this.dessert.TabIndex = 5;
@@ -157,7 +157,8 @@
             this.Controls.Add(this.primi);
             this.Controls.Add(this.antipasti);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(1323, 650);
             this.MinimumSize = new System.Drawing.Size(1323, 650);
             this.Name = "Visualizza";
